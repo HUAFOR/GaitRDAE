@@ -9,7 +9,10 @@ Abstract—Deep learning-based gait recognition has achieved great success in va
 Please follow our documentation step by step.
 
 ## Environment Setup
+```
 conda create --name gaitrdae python=3.8
 conda activate gaitrdae
 pip install tqdm pyyaml tensorboard opencv-python tqdm py7zr tabulate termcolor six
 pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
